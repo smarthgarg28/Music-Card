@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(155,228,185);
+    background: linear-gradient(90deg, rgba(155,228,185,1) 0%, rgba(186,192,205,0.1655844155844156) 53%, rgba(75,135,112,0.35551948051948057) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width:360px;
+    height:550px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 30px black;
+    font-weight: bold;
+
+
+}
+.card img{
+    height: 50%;
+    border-radius: 7%;
+    
+}
+.card h2{
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+    
+}
+#Lyrics{
+    color:rgb(110, 189, 152)
+}
